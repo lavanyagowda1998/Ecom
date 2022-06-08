@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'ecom.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE':'django.db.backends.sqlite3',
         'NAME':'d22k8uam75uols',
         'USER': 'wmhdvfbmfvdwgx',
         'Host':'ec2-52-73-184-24.compute-1.amazonaws.com',
