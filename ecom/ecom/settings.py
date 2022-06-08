@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_^&*jc2c-8q3stg&qx*un1_j^*!n$##s88%7vmc)ps3#kf#lt@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,7 +77,11 @@ WSGI_APPLICATION = 'ecom.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME':'d22k8uam75uols',
+        'USER': 'wmhdvfbmfvdwgx',
+        'Host':'ec2-52-73-184-24.compute-1.amazonaws.com',
+        'Port':5432,
+        'Password':'449de3226500ebb7a6ab4876eba40a6c6e6e6557228744e1064ad87d067da563',
     }
 }
 
